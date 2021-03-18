@@ -1,0 +1,26 @@
+
+
+.cor_div_prim {
+    background-color: red;
+    width: 100%;
+}
+
+.cor_div_seg {
+    background-color: blue;
+    width: 100%;
+}
+
+.cor_div_ter {
+    background-color: green;  
+    width: 100%;  
+}
+
+.tamanho_div_curto {
+    height: 50px;
+
+}
+
+.tamanho_div_grande {
+    height: 400px;
+
+}
