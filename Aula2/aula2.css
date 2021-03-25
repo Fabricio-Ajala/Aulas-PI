@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+.header {
+    padding-top: 25px;
+    background: #161b22;
+    width: 100%;
+    height: 60px;
+    font-family: Gill Sans, sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+  }
+
+.fonte{
+    color: whitesmoke;
+}
+
+.detalhes{
+    color: rgba(233, 74, 0, 0.842);
+}
+
+.header nav {
+    float: right;
+  }
+
+.box {
+    max-width: 1450px;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+ul {
+    list-style: none;
+    margin: auto;
+  }
+
+ul li {
+    color: white;
+    display: inline;
+    margin-left: 15px;
+    font-size: small;
+  }
