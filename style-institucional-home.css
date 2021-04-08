@@ -12,6 +12,7 @@ body {
   font-family: Gill Sans, sans-serif;
   font-weight: bolder;
   font-size: x-large;
+  border-bottom: 10px solid rgba(233, 74, 0, 0.842);
   }
 
 .fonte{
@@ -62,6 +63,7 @@ ul li {
 
 .box p {
   font-size: 30px;
+  padding-top: 30px;
 }
 
 /* Fim do corpo central */
@@ -104,7 +106,7 @@ ul li {
 
 .missao {
   float: left;
-  margin-left: 400px;
+  margin-left: 465px;
 }
 
 .missao img {
@@ -129,7 +131,9 @@ ul li {
     width: 200px;
   }
 
-  .rodape {
+/* Fim das imagens centralizadas */
+
+  .rodape-home {
     margin-top: 300px;
     text-align: center;
     height: 100px;
@@ -138,6 +142,6 @@ ul li {
     font-size: 20px;
   }
 
-  .rodape h5 {
+  .rodape-home h5 {
     padding-top: 40px;
   }
