@@ -1,7 +1,11 @@
 /* Pagina Cadastro */
 
+.fundo-cad {
+  background-color: #ECF0F1;
+}
+
 .pag-cadastro {
-  width: 1500px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -18,11 +22,19 @@
   margin-bottom: 15px;
 }
 
+.texto-interno {
+  float: left;
+}
+
+.texto-interno h1 {
+  padding-bottom: 30px;
+  
+}
+
 /* Imagem */
 
-.img-cad {
-  float: right;
-  
+.img-cad {  
+float: right;
 }
 
 /* Fim ajustes imagem */
