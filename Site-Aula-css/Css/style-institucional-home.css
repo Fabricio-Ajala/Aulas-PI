@@ -4,6 +4,9 @@ body {
     border: 0;
   }
 
+  a {
+    text-decoration: none;
+  }
 /* Graficos */
 
 .grafico-principal {

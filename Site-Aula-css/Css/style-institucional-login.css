@@ -61,7 +61,7 @@
 
 /* Rodape*/
 
-.rodape {
+.rodape-login {
   text-align: center;
   height: 159px;
   background-color: rgba(233, 74, 0, 0.842);
@@ -69,8 +69,8 @@
   font-size: 20px;
 }
 
-.rodape h5 {
-  padding-top: 120px;
+.rodape-login h5 {
+  padding-top: 80px;
   margin: 0 ;
 }
 
