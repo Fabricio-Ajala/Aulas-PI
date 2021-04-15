@@ -4,6 +4,15 @@ body {
     border: 0;
   }
 
+/* Graficos */
+
+.graficio-principal{
+  width: 600px;
+  height: 600px;
+}
+
+/* Fim grafico */
+
 .header {
   padding-top: 25px;
   background: #161b22;

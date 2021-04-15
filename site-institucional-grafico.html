@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOBRE</title>
+    <link rel="stylesheet" href="style-institucional-login.css">
+    <link rel="stylesheet" href="style-institucional-home.css">
+    <link rel="stylesheet" href="style-institucional-cadastro.css">
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.0.2/chart.min.js"
+    ></script>
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="box">
+            <span class="detalhes">
+                Projeto <span class="fonte"> IoT Revolucionário</span>
+            </span>
+
+            <nav>
+                <ul>
+                    <li>HOME</li>
+                    <LI class="detalhes">SOBRE</LI>
+                    <li>CADASTRO</li>
+                    <li>LOGIN</li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+            
+            <div>
+                <canvas id="chart" class="grafico-principal"></canvas>
+            </div>
+
+        <div class="rodape">
+
+        <h5> 
+            
+        Feito por Fabrício Ajala com a orientação de Guilherme Jesus :)
+
+        </h5>
+
+        </div>
+
+
+</body>
+
+</html>
+
+<script>
+    // Cria o contexto do CANVAS
+    var ctx = chart.getContext("2d");
+  
+    // Configuracao do grafico
+    var config = {
+    type: 'doughnut', // Aqui falo qual modelo de grafico vou querer
+      data: {
+        labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"], // Aqui são as legendas do grafico
+        datasets: [
+          {
+            label: "% Usuarios", // Titulo do grafico
+            data: [30, 1, 20, 5, 2, 3], // Dados do grafico
+            backgroundColor: [
+              "rgba(255, 99, 132, 0.2)",
+              "rgba(54, 162, 235, 0.2)",
+              "rgba(255, 206, 86, 0.2)",
+              "rgba(75, 192, 192, 0.2)",
+              "rgba(153, 102, 255, 0.2)",
+              "rgba(255, 159, 64, 0.2)",
+            ],
+            borderColor: [
+              "rgba(255, 99, 132, 1)",
+              "rgba(54, 162, 235, 1)",
+              "rgba(255, 206, 86, 1)",
+              "rgba(75, 192, 192, 1)",
+              "rgba(153, 102, 255, 1)",
+              "rgba(255, 159, 64, 1)",
+            ],
+            borderWidth: 1,
+          },
+        ],
+      },
+      options: {
+        scales: {
+          y: {
+            beginAtZero: true, // Especifico para o grafico comecar a partir do valor 0 no eixo Y
+          },
+        },
+      },
+    };
+  
+    new Chart(ctx, config); // Aqui chamo a funcao Chart que foi inserida no meu projeto na linha 7
+  </script>
