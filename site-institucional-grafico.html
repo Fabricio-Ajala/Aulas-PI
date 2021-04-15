@@ -33,11 +33,14 @@
         </div>
     </div>
             
-         
-            <div style="height: 600px; width: 600px;">
+
+        <div class="pag-grafico">
+         <div class="box">
+            <div class="grafico-principal">
                 <canvas id="chart"></canvas>
             </div>
-
+          </div>
+        </div>
 
         <div class="rodape">
 
@@ -65,7 +68,7 @@
         labels: ["Usuários sem conhecimentos", "Usuários com conhecimentos basicos", "Usuários com conhecimentos avançados"], // Aqui são as legendas do grafico
         datasets: [
           {
-            label: "% Usuarios", // Titulo do grafico
+            label: "% Usuarios na internet", // Titulo do grafico
             data: [70, 18, 12], // Dados do grafico
             backgroundColor: [
               "rgba(255, 222, 173, 0.8)",

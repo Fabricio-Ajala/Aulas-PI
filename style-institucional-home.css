@@ -6,7 +6,15 @@ body {
 
 /* Graficos */
 
+.grafico-principal {
+  height: 774px;
+  width: 774px;
+  margin: auto auto;
+}
 
+.pag-grafico {
+  background-color: whitesmoke;
+}
 
 /* Fim grafico */
 
